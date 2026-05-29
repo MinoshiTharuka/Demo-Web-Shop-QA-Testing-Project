@@ -46,10 +46,6 @@
 - Customer information is updated successfully
 - No success confirmation message is displayed
 
-**Evidence:**
-
-- Video: 
-
 ---
 
 ### DEF-002: Buttons Are Missing
@@ -77,12 +73,6 @@
 
 - Layout partially breaks on smaller window resize
 
-**Evidence:**
-
-- Video: 
-
----
-
 ### DEF-003: Buttons Are Missing
 
 | Field           | Details                                                               |
@@ -109,11 +99,6 @@
 
 - Some buttons are missing
 
-**Evidence:**
-
-- Image: 
-
----
 
 ### DEF-004: Buttons Are Missing
 
@@ -139,9 +124,5 @@
 **Actual Result:**
 
 - Decimal format is correct but the currency type is missing
-
-**Evidence:**
-
-- Image: 
 
 
