@@ -17,7 +17,7 @@
 
 ## Defect Log
 
-### DEF-001: No Error Message When Adding Negative Quantity to Cart
+### DEF-001: No Success Message When Updating Customer Information
 
 | Field           | Details                                                               |
 | --------------- | --------------------------------------------------------------------- |
@@ -32,9 +32,9 @@
 
 **Steps to Reproduce:**
 
-1.Navigate to My Account → Customer info
-2.Modify details
-3.Click "Save button"
+1. Navigate to My Account → Customer info
+2. Modify details
+3. Click "Save button"
 
 **Expected Result:**
 
@@ -51,3 +51,97 @@
 - Video: 
 
 ---
+
+### DEF-002: Buttons Are Missing
+
+| Field           | Details                                                               |
+| --------------- | --------------------------------------------------------------------- |
+| **Defect ID**   | DEF-002                                                               |
+| **Related TC**  | TC_027                                                                |
+| **Summary**     | Responsive design issues on resize window                             |
+| **Severity**    | Medium                                                                |
+| **Priority**    | Medium                                                             |
+| **Status**      | Open                                                                  |
+| **Browser**     | Chrome                                                                |
+| **Environment** | https://demowebshop.tricentis.com/                                    |
+
+**Steps to Reproduce:**
+
+1. Resize window
+
+**Expected Result:**
+
+- Layout adjusts according to screen size
+
+**Actual Result:**
+
+- Layout partially breaks on smaller window resize
+
+**Evidence:**
+
+- Video: 
+
+---
+
+### DEF-003: Buttons Are Missing
+
+| Field           | Details                                                               |
+| --------------- | --------------------------------------------------------------------- |
+| **Defect ID**   | DEF-003                                                               |
+| **Related TC**  | TC_029                                                                |
+| **Summary**     | “Add to Cart” button missing in some product listing/card |
+| **Severity**    | High                                                                |
+| **Priority**    | High                                                             |
+| **Status**      | Open                                                                  |
+| **Browser**     | Chrome                                                                |
+| **Environment** | https://demowebshop.tricentis.com/                                    |
+
+**Steps to Reproduce:**
+
+1. Navigate to a product category
+2. heck for “Add to Cart” button on each product card
+
+**Expected Result:**
+
+- Add to Cart button display and clickable for all products
+
+**Actual Result:**
+
+- Some buttons are missing
+
+**Evidence:**
+
+- Image: 
+
+---
+
+### DEF-004: Buttons Are Missing
+
+| Field           | Details                                                               |
+| --------------- | --------------------------------------------------------------------- |
+| **Defect ID**   | DEF-004                                                               |
+| **Related TC**  | TC_030                                                                |
+| **Summary**     | Currency type is missing from product prices                          |
+| **Severity**    | High                                                                  |
+| **Priority**    | High                                                                  |
+| **Status**      | Open                                                                  |
+| **Browser**     | Chrome                                                                |
+| **Environment** | https://demowebshop.tricentis.com/                                    |
+
+**Steps to Reproduce:**
+
+1. Open website and observe the product price
+   
+**Expected Result:**
+
+- Prices with a currency type and  two decimal places (Ex: $10.00)
+
+**Actual Result:**
+
+- Decimal format is correct but the currency type is missing
+
+**Evidence:**
+
+- Image: 
+
+
