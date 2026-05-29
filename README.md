@@ -25,14 +25,6 @@ The project focuses on performing both manual testing and automation testing for
 
 ---
 
-# Documentation
-
-- [Test Strategy](docs/test-planning/02-TEST-STRATEGY.md)
-- [Test Plan](docs/test-planning/03-TEST-PLAN.md)
-- [Defect Report](docs/defects/DEFECT-REPORT.md)
-  
----
-
 ## Testing Types Covered
 ### Manual Testing
 - Functional Testing
